@@ -21,6 +21,34 @@ let projects = [
 	{
 		projectName: 'Project 3',
 		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 4',
+		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 5',
+		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 6',
+		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 7',
+		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 8',
+		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 9',
+		projectType: 'Web design'
+	},
+	{
+		projectName: 'Project 20',
+		projectType: 'Web design'
 	}
 ];
 class SideBar extends Component {
