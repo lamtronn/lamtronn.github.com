@@ -34,7 +34,7 @@
 }
 
 .container .homepage .banner .banner-image .banner-image-info {
-  background-color: #27485c;
+  background-color: #6c7972;
   bottom: 0px;
   -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.3);
@@ -122,7 +122,7 @@
 }
 
 .container .homepage .nav ul li:hover {
-  color: #27485c;
+  color: #6c7972;
   font-weight: 600;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -137,6 +137,6 @@
 }
 
 .container .homepage .nav ul li a:hover {
-  color: #27485c;
+  color: #6c7972;
 }
 /*# sourceMappingURL=Homepage.css.map */
