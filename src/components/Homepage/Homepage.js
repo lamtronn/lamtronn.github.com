@@ -13,7 +13,7 @@ class Homepage extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			redirectPortfolio: false,
+			redirectPortfolio: false
 		};
 	}
 
@@ -43,13 +43,13 @@ class Homepage extends Component {
 											<div className="banner-image-info-title">
 												UI/UX Designer - Front-end Developer
 											</div>
-											<div className="banner-image-info-body">Ho Chi Minh City, Vietnam</div>
 											<div className="banner-image-info-body">
-												Don’s work includes a wide range of fields, reflecting
-												his abilities in graphic design, web-based design, UI
-												design, motion graphic design, typography and many other
-												fields. Recently, He is interested in iOS, web
-												developent to create the actual product.
+												Ho Chi Minh City, Vietnam
+											</div>
+											<div className="banner-image-info-body">
+												All the projects reflect my abilities in a wide range of
+												fields, which includes UI designs, UX researching,
+												programming with HTML/CSS/JS
 											</div>
 										</div>
 									</div>
@@ -58,21 +58,52 @@ class Homepage extends Component {
 
 							<div className="nav">
 								<ul>
+									<Animated
+										animationIn="slideInRight"
+										animationInDuration={1000}
+									>
 										<li onClick={this.onClick}>Portfolio</li>
-									<li>Resume</li>
-									<li>
-										<a href="https://www.behance.net/lamtronn" target="_blank">
-											Behance
-										</a>
-									</li>
-									<li>
-										<a href="https://www.facebook.com/tronble" target="_blank">
-											Facebook
-										</a>
-									</li>
-									<li>
-										<a href="mailto:lamtrn98@gmail.com">Email</a>
-									</li>
+									</Animated>
+									<Animated
+										animationIn="slideInRight"
+										animationInDuration={800}
+									>
+										<li>Resume</li>
+									</Animated>
+									<Animated
+										animationIn="slideInRight"
+										animationInDuration={600}
+									>
+										<li>
+											<a
+												href="https://www.behance.net/lamtronn"
+												target="_blank"
+											>
+												Behance
+											</a>
+										</li>
+									</Animated>
+									<Animated
+										animationIn="slideInRight"
+										animationInDuration={400}
+									>
+										<li>
+											<a
+												href="https://www.facebook.com/tronble"
+												target="_blank"
+											>
+												Facebook
+											</a>
+										</li>
+									</Animated>
+									<Animated
+										animationIn="slideInRight"
+										animationInDuration={200}
+									>
+										<li>
+											<a href="mailto:lamtrn98@gmail.com">Email</a>
+										</li>
+									</Animated>
 								</ul>
 							</div>
 						</div>
