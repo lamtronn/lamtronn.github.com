@@ -1,0 +1,47 @@
+.header {
+  background-color: #27485c;
+  height: 15vh;
+  padding: 30px;
+  width: 250px;
+}
+
+.header .header-back {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .header-back:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .header-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.header .header-title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=SideHeader.css.map */

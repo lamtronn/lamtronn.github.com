@@ -1,0 +1,112 @@
+.container {
+	.homepage {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		height: 100vh;
+		padding: 0 150px 0 150px;
+		// width: 80%;
+		.banner {
+			width: 60%;
+			.banner-image {
+				background-image: url("../../images/banner.jpg");
+				background-color: #eeeeee;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 80vh;
+				position: relative;
+				width: 487px;
+				z-index: 4;
+				.banner-image-info {
+					background-color: #27485c;
+					bottom: 0px;
+					box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.3);
+					height: auto;
+					max-height: 327px;
+					max-width: 436px;
+					margin-left: 270px;
+					margin-bottom: 50px;
+					position: absolute;
+					transition: 0.3s;
+					width: 436px;
+					z-index: 1;
+					padding: 40px;
+					.banner-image-info-name {
+						color: #ffffff;
+						font-family: Rubik;
+						font-size: 36px;
+						font-weight: 400;
+						font-stretch: normal;
+						font-style: normal;
+						letter-spacing: normal;
+						line-height: normal;
+					}
+					.banner-image-info-title {
+						color: #ffffff;
+						font-size: 20px;
+						font-weight: 300;
+						font-stretch: normal;
+						font-style: normal;
+						letter-spacing: normal;
+						line-height: normal;
+						margin-top: 10px;
+					}
+					.banner-image-info-body {
+						color: #ffffff;
+						font-size: 14px;
+						font-weight: 300;
+						font-stretch: normal;
+						font-style: normal;
+						letter-spacing: normal;
+						line-height: 1.5;
+						margin-top: 20px;
+						text-align: justify;
+					}
+					&:hover {
+						box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+						transition: 0.3s;
+						transform: translateY(-20px);
+					}
+				}
+			}
+		}
+
+		.nav {
+			width: 40%;
+			text-align: right;
+			ul {
+				align-self: flex-end;
+				font-size: 36px;
+				font-weight: 300;
+				font-stretch: normal;
+				font-style: normal;
+				margin-left: auto;
+				margin-right: 0;
+				line-height: normal;
+				list-style: none;
+				letter-spacing: normal;
+				text-align: right;
+				color: #303030;
+				li {
+					font-weight: 300;
+					margin-top: 25px;
+					transition: 0.3s;
+					&:hover {
+						color: #27485c;
+						font-weight: 600;
+						transition: 0.3s;
+						transform: translateX(-20px);
+						letter-spacing: 10px;
+					}
+					a {
+						color: #303030;
+						text-decoration: none;
+						&:hover {
+							color: #27485c;
+						}
+					}
+				}
+			}
+		}
+	}
+}

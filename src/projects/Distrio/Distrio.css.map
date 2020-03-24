@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACd,OAAO,EAAE,CAAC;CAIX;;AALD,AAEE,gBAFc,CAEd,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "Distrio.scss"
+    ],
+    "names": [],
+    "file": "Distrio.css"
+}
