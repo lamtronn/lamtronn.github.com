@@ -13,7 +13,7 @@ function App() {
   return (
     <div> 
     <Switch>
-      <Route exact path="/" component = { Homepage } />
+      <Route exact path="/port" component = { Homepage } />
       <Route exact path="/portfolio" component = { Portfolio } />
     </Switch>
   </div>
