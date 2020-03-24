@@ -64,7 +64,7 @@ class Portfolio extends Component {
 	render() {
 		let currentProject = this.selectProject();
 		if (this.state.isRedirectHomepage) {
-			return <Redirect to="/" Component={Homepage} />;
+			return <Redirect to="/port" Component={Homepage} />;
 		}
 		return (
 			<Router>
