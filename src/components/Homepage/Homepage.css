@@ -15,7 +15,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  padding: 0 150px 0 150px;
+  padding: 0 10% 0 10%;
 }
 
 .container .homepage .banner {
