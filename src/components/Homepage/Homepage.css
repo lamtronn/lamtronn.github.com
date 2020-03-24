@@ -29,7 +29,7 @@
   background-size: cover;
   height: 80vh;
   position: relative;
-  width: 487px;
+  width: 100%;
   z-index: 4;
 }
 
@@ -41,7 +41,8 @@
   height: auto;
   max-height: 327px;
   max-width: 436px;
-  margin-left: 270px;
+  right: 0;
+  margin-right: -100px;
   margin-bottom: 50px;
   position: absolute;
   -webkit-transition: 0.3s;
