@@ -23,8 +23,8 @@ class SideHeader extends Component {
 		return (
 			<div className="header">
 				<div className="header-back" onClick={this.onBack}>Back</div>
-				<div className="header-name">Don Byrd</div>
-				<div className="header-title">Front-end Developer</div>
+				<div className="header-name">Lam Nguyen</div>
+				<div className="header-title">UI/UX Designer</div>
 			</div>
 		);
 	}
