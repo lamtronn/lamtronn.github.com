@@ -1,4 +1,5 @@
 .container {
+	font-family: 'Lato';
 	background-image: url("../../images/pattern.png");
 	.homepage {
 		align-items: center;
@@ -34,9 +35,9 @@
 					padding: 40px;
 					.banner-image-info-name {
 						color: #ffffff;
-						font-family: Rubik;
+						font-family: 'Lato';
 						font-size: 36px;
-						font-weight: 400;
+						// font-weight: 400;
 						font-stretch: normal;
 						font-style: normal;
 						letter-spacing: normal;
