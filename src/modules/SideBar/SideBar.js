@@ -11,6 +11,10 @@ import './SideBar.css';
 
 let projects = [
 	{
+		projectName: 'Notebud',
+		projectType: 'Mobile application design'
+	},
+	{
 		projectName: 'Mira Doctor Booking',
 		projectType: 'Reponsive web design'
 	},
@@ -18,38 +22,6 @@ let projects = [
 		projectName: 'Distrio',
 		projectType: 'Landing page design'
 	},
-	{
-		projectName: 'Project 3',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 4',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 5',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 6',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 7',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 8',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 9',
-		projectType: 'Web design'
-	},
-	{
-		projectName: 'Project 20',
-		projectType: 'Web design'
-	}
 ];
 class SideBar extends Component {
 	constructor(props) {

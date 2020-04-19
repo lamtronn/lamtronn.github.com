@@ -12,6 +12,7 @@ import Homepage from '../Homepage/Homepage';
 
 //Import projects
 import Project_1 from '../../projects/Project_1/Project_1';
+import Notebud from '../../projects/Notebud/Notebud';
 import DoctorBooking from '../../projects/DoctorBooking/DoctorBooking';
 import Distrio from '../../projects/Distrio/Distrio';
 
@@ -51,13 +52,13 @@ class Portfolio extends Component {
 
 	selectProject() {
 		if (this.state.projectId === 0) {
-			return <DoctorBooking/>;
+			return <div><Notebud/></div>;
 		}
 		if (this.state.projectId === 1) {
-			return <Distrio/>;
+			return <DoctorBooking/>;
 		}
 		if (this.state.projectId === 2) {
-			return <div>2</div>;
+			return <Distrio/>;
 		}
 	}
 
