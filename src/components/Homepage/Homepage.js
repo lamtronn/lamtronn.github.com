@@ -3,7 +3,7 @@ import { Route } from 'react-router';
 import {
 	BrowserRouter as Router,
 	Redirect,
-	withRouter
+	withRouter,
 } from 'react-router-dom';
 import { Animated } from 'react-animated-css';
 import Portfolio from '../Portfolio/Portfolio';
@@ -13,13 +13,13 @@ class Homepage extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			redirectPortfolio: false
+			redirectPortfolio: false,
 		};
 	}
 
 	onClick = () => {
 		this.setState({
-			redirectPortfolio: true
+			redirectPortfolio: true,
 		});
 	};
 
@@ -68,7 +68,14 @@ class Homepage extends Component {
 										animationIn="slideInRight"
 										animationInDuration={800}
 									>
-										<li>Resume</li>
+										<li>
+											<a
+												href="https://drive.google.com/file/d/1p7Yv4sMfjuw2R6pGfXEYTR1nKsWUpyQd/view?usp=sharing"
+												target="_blank"
+											>
+												Resume
+											</a>
+										</li>
 									</Animated>
 									<Animated
 										animationIn="slideInRight"
