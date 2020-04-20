@@ -15,6 +15,7 @@ import Project_1 from '../../projects/Project_1/Project_1';
 import Notebud from '../../projects/Notebud/Notebud';
 import DoctorBooking from '../../projects/DoctorBooking/DoctorBooking';
 import Distrio from '../../projects/Distrio/Distrio';
+import HealthInsurance from '../../projects/HealthInsurance/HealthInsurance';
 
 const mql = window.matchMedia(`(min-width: 800px)`);
 
@@ -59,6 +60,9 @@ class Portfolio extends Component {
 		}
 		if (this.state.projectId === 2) {
 			return <Distrio/>;
+		}
+		if (this.state.projectId === 3) {
+			return <HealthInsurance/>;
 		}
 	}
 

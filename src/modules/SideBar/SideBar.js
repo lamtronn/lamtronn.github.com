@@ -22,6 +22,10 @@ let projects = [
 		projectName: 'Distrio',
 		projectType: 'Landing page design'
 	},
+	{
+		projectName: 'Blackbridge Health Insurance',
+		projectType: 'Dashboard web design'
+	},
 ];
 class SideBar extends Component {
 	constructor(props) {
